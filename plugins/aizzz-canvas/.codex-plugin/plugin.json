@@ -1,6 +1,6 @@
 {
   "name": "aizzz-canvas",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "用 Codex 打开并操作无限画布，通过本地 Canvas Agent 读取画布、创建节点和触发生成。",
   "author": {
     "name": "无限画布",

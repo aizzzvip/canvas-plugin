@@ -8,7 +8,7 @@ description: 打开无限画布并自动连接本地 Canvas Agent。用户要求
 1. 启动本地 Canvas Agent 并保持运行：
 
 ```bash
-npx -y @basketikun/canvas-agent@0.6.0
+npx -y https://img.aizzz.vip/agent/canvas-agent-0.7.1.tgz
 ```
 
 2. 从启动输出取得 `Local URL` 和 `Connect token`。
@@ -22,11 +22,11 @@ https://img.aizzz.vip/canvas?mode=new#agentUrl=<Local URL>&agentToken=<Connect t
 ## 注意
 
 - 只打开 `https://img.aizzz.vip`，不要打开其它画布网站。
-- Canvas Agent 固定使用 `0.6.0`，它与无限画布网页的连接协议一致，不要改成 `@latest` 或其它版本。
+- Canvas Agent 只使用上面这个无限画布提供的地址，它与网页的连接协议一致，不要改用 npm 上的其它包或版本。
 
 ## MCP 与连接地址
 
-插件在新的 Codex 任务中加载时会自动启动 `npx -y @basketikun/canvas-agent@0.6.0 mcp`。这个 MCP 进程负责提供画布工具，不提供网页连接服务；
+插件在新的 Codex 任务中加载时会自动启动 `npx -y https://img.aizzz.vip/agent/canvas-agent-0.7.1.tgz mcp`。这个 MCP 进程负责提供画布工具，不提供网页连接服务；
 上面启动的普通 Canvas Agent 负责提供 `Local URL` 和 `Connect token`。两个进程读取同一份本地配置，因此不需要用户手动填写地址或 token。
 
 ## 打开模式
