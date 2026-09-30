@@ -1,0 +1,31 @@
+{
+  "name": "aizzz-canvas",
+  "version": "0.1.0",
+  "description": "用 Codex 打开并操作无限画布，通过本地 Canvas Agent 读取画布、创建节点和触发生成。",
+  "author": {
+    "name": "无限画布",
+    "url": "https://img.aizzz.vip/"
+  },
+  "homepage": "https://img.aizzz.vip/",
+  "repository": "https://github.com/aizzzvip/canvas-plugin",
+  "keywords": ["canvas", "mcp", "agent", "无限画布"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "无限画布",
+    "shortDescription": "用 Codex 操作无限画布里当前打开的画布。",
+    "longDescription": "通过本地 Canvas Agent 连接无限画布网页，Codex 可以读取当前画布、创建和连接节点，并用你在无限画布里配置的模型生成图片、视频。",
+    "developerName": "无限画布",
+    "category": "Productivity",
+    "capabilities": ["Canvas", "MCP", "Creative Workflow"],
+    "websiteURL": "https://img.aizzz.vip/",
+    "defaultPrompt": [
+      "打开无限画布",
+      "读取当前画布并总结节点结构",
+      "根据选中节点创建一组生图提示词"
+    ],
+    "brandColor": "#171717",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}

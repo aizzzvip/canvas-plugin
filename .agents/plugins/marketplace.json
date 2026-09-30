@@ -1,0 +1,20 @@
+{
+  "name": "aizzzvip",
+  "interface": {
+    "displayName": "无限画布"
+  },
+  "plugins": [
+    {
+      "name": "aizzz-canvas",
+      "source": {
+        "source": "local",
+        "path": "./plugins/aizzz-canvas"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
